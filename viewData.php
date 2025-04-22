@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,10 +11,10 @@
 </head>
 <body>
     <h1>Data :</h1>
-    <h2>username:</h2><?= $_SESSION['username'] ?><br>
-    <h2>email:</h2><?= $_SESSION['email'] ?><br>
-    <h2>age:</h2><?= $_SESSION['age'] ?><br>
-    <h2>password:</h2><?= $_SESSION['password'] ?><br>
+    <h2>username:</h2><?= $_SESSION['username']; ?><br>
+    <h2>email:</h2><?= $_SESSION['email']; ?><br>
+    <h2>age:</h2><?= $_SESSION['age']; ?><br>
+    <h2>password:</h2><?= $_SESSION['password']; ?><br>
 
 </body>
 </html>

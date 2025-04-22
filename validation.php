@@ -49,7 +49,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     }
 
     if(empty($errors)){
-        echo "<h3 style='color:green ;'>Form Submition Successfuly</h3> <br> <a href=\"viewData.php\"></a>";
+        echo "<h3 style='color:green ;'>Form Submition Successfuly</h3> <br> <a href=\"viewData.php\">view data</a>";
     }
 }
 
